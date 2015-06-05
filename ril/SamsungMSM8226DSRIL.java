@@ -395,7 +395,7 @@ public class SamsungMSM8226DSRIL extends RIL {
     }
 
     static final int RIL_REQUEST_DIAL_EMERGENCY = 10016;
-    private void
+/*    private void
     dialEmergencyCall(String address, int clirMode, Message result) {
         RILRequest rr;
         Rlog.v(RILJ_LOG_TAG, "Emergency dial: " + address);
@@ -408,7 +408,7 @@ public class SamsungMSM8226DSRIL extends RIL {
         if (RILJ_LOGD) riljLog(rr.serialString() + "> " + requestToString(rr.mRequest));
 
         send(rr);
-    }
+    } */
 
     private void
     dialEmergencyCall(String address, int clirMode, Message result) {
